@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# libs
+llama2.c
+mlx
 # C extensions
 *.so
 

@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+Llama-2-7b-chat-4-bit
 # libs
 llama2.c
 mlx

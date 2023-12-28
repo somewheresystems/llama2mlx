@@ -2,16 +2,6 @@ import math
 import mlx.core as mx
 import mlx.nn as nn
 
-class Config:
-    def __init__(self, dim, hidden_dim, n_layers, n_heads, n_kv_heads, vocab_size, seq_len):
-        self.dim = dim
-        self.hidden_dim = hidden_dim
-        self.n_layers = n_layers
-        self.n_heads = n_heads
-        self.n_kv_heads = n_kv_heads
-        self.vocab_size = vocab_size
-        self.seq_len = seq_len
-
 class LlamaAttention(nn.Module):
     def __init__(self, dims: int, num_heads: int):
         super().__init__()
